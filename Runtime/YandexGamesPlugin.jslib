@@ -1,4 +1,4 @@
-const library = {
+const yandexLibrary = {
 
   // Class definition.
 
@@ -618,5 +618,5 @@ const library = {
   }
 }
 
-autoAddDeps(library, '$yandexGames');
-mergeInto(LibraryManager.library, library);
+autoAddDeps(yandexLibrary, '$yandexGames');
+mergeInto(LibraryManager.library, yandexLibrary);
